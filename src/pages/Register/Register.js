@@ -3,6 +3,9 @@
 import React, { Component } from 'react'
 import "./components/Register.css"
 import {requestRegister} from "../../util/request"
+import GoBack from "../../components/GoBack/GoBack"
+import showToast from "../../util/alert"
+
 export default class Login extends Component {
     constructor(){
         super()
@@ -27,10 +30,10 @@ export default class Login extends Component {
     requestRegister(this.state.users).then(res=>{
         console.log(res)
         if(res.data.code===200){
-            alert(res.data.msg)
+            showToast(res.data.msg)
             this.props.history.push("/login")
         }else{
-            alert("注册失败")
+            showToast("注册失败")
         }
     })
 }
@@ -39,7 +42,9 @@ export default class Login extends Component {
         return (
             <div className="reg">
                 <div className="reg-nav">
-                    <p className="nav-zhu">返回</p>
+                    {/* 封装的返回按钮 */}
+                    <GoBack></GoBack>
+                    {/* <p className="nav-zhu">返回</p> */}
                     <p>注册</p>
 
                 </div>

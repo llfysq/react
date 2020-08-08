@@ -3,6 +3,7 @@
 import React, { Component } from 'react'
 import "./components/Login.css"
 import {requestLogin} from "../../util/request"
+import showToast from "../../util/alert"
 export default class Login extends Component {
     constructor(){
         super()
@@ -15,6 +16,7 @@ export default class Login extends Component {
     }
 // 点击注册，跳转到注册页面
     reg(){
+        console.log( this.props)
         this.props.history.push('/register')
     }
 
@@ -33,8 +35,9 @@ export default class Login extends Component {
             if(res.data.code===200){
                 sessionStorage.setItem("isLogin",1)
                 this.props.history.push("/index")
+                showToast(res.data.msg)
             }else{
-                alert(res.data.msg)
+                showToast(res.data.msg)
             }
         })
     }
