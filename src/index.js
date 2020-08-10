@@ -13,6 +13,7 @@ import { HashRouter} from "react-router-dom"
 Component.prototype.$img="http://localhost:3000"
 ReactDOM.render(
   // 设置路由模式
+  
   <HashRouter>
      <App />
   </HashRouter>

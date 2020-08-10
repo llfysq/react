@@ -1,0 +1,73 @@
+.Shopping-nav {
+    width: 100%;
+    height: 1rem;
+    background-color: #FF9900;
+    color: #fff;
+    font-size: 0.4rem;
+    text-align: center;
+    line-height: 1rem;
+}
+
+
+/* 底部样式 */
+.Shopping-boom {
+    width: 100%;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 1.6rem;
+    background-color: white;
+    border-top: 1px solid #CCCCCC;
+}
+
+
+/* 编辑 */
+.Shopping-bian {
+    /* width: 2.3rem; */
+    height: 1.2rem;
+    /* background-color: gold; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #666666;
+}
+
+.Shopping-bian img {
+    width: 0.45rem;
+    height: 0.45rem;
+}
+
+.Shopping-he p {
+    margin: 0.1rem;
+}
+
+/* 全选 */
+.Shopping-quan {
+    width: 1.5rem;
+    height: 1.2rem;
+    /* background-color: wheat; */
+    text-align: center;
+    color: #666666;
+
+}
+
+.Shopping-quan input {
+    width: 0.45rem;
+    height: 0.45rem;
+    border: 1px solid #FFAA00;
+    margin: 0.1rem;
+}
+
+
+
+/* 结算按钮 */
+.Shopping-btn button {
+    width: 2.3rem;
+    height: 1.2rem;
+    border: none;
+    background-color: #FF9900;
+    color: white;
+}

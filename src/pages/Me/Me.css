@@ -88,7 +88,10 @@ justify-content: space-around;
 padding: 0.5rem 0;
 color: #B6B6B6;
 }
-
+.Me-ul img{
+    width: 0.6rem;
+    height: 0.5rem;
+}
 /* 收货地址管理 */
 .Me-shouhuo{
     margin: 0.2rem 0;

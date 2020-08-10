@@ -33,8 +33,8 @@ export default class Login extends Component {
         requestLogin(this.state.user).then(res=>{
         console.log(res);
             if(res.data.code===200){
-                sessionStorage.setItem("isLogin",1)
-                this.props.history.push("/index")
+                sessionStorage.setItem("uid",res.data.list.uid)
+                this.props.history.push("/index/home")
                 showToast(res.data.msg)
             }else{
                 showToast(res.data.msg)

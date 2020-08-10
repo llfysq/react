@@ -1,0 +1,96 @@
+/* 加入购物车 */
+.Goodsinfo{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.7rem;
+    background-color: white;
+    border-top: 1px solid #CCCCCC ;
+}
+.Goodsinfo button{
+    position: absolute;
+    right: 0;
+    height: 0.7rem;
+    background-color:#FF9900 ;
+    border: none;
+    color: white;
+    font-size: 0.3rem;
+    width: 2rem;
+}
+/* goodsdetail */
+.goodsDetail{
+    background-color:#CCCCCC ;
+}
+.goodsDetail-con{
+    background-color: white;
+    padding: 0.1rem 0;
+}
+.goodsDetail-nav {
+    width: 100%;
+    height: 1rem;
+    background: #FF9900;
+    color: white;
+    font-size: 0.18rem;
+    text-align: center;
+    overflow: hidden;
+    line-height: 1rem;
+    position: relative;
+}
+
+.goodsDetail-nav .nav-zhu {
+    position: absolute;
+    top: 0rem;
+    left: 0.5rem;
+
+}
+
+.goodsDetail-img {
+    width: 100%;
+    height: 4rem;
+}
+
+.goodsDetail-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0.4rem;
+}
+
+.goodsDetail-name {
+    font-size: 0.45rem;
+}
+
+.goodsDetail-cang img {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.goodsDetail-cang p {
+
+    color: #FF5E13;
+}
+
+.goodsDetail-jia {
+
+    display: flex;
+}
+
+.goodsDetail-jia p {
+    color: red;
+    margin: 0 0.4rem;
+}
+
+.goodsDetail-jia span {
+    margin: 0 0.1rem 0 0;
+    border: 1px solid #FFAA00;
+    color: #FFAA00;
+}
+
+.goodsDetail-yuan {
+    color: #666666;
+    margin: 0.2rem 0.4rem;
+    /* text-decoration: line-through; */
+}
+.goodsDetail-xiang{
+    margin-top: 0.2rem;
+}

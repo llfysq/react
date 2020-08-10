@@ -1,0 +1,31 @@
+.List{
+    display: flex;
+    margin: 0.5rem;
+
+}
+.List img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.2rem;
+    margin-right: 0.3rem;
+}
+.List .List-name{
+    color:  black;
+    font-size: 0.4rem;
+    margin-bottom: 0.3rem;
+}
+.List .List-price{
+    color: red;
+    font-size: 0.4rem;
+}
+.List .List-btn{
+    background-color: #FF9900;
+    color: white;
+    font-size: 0.4rem;
+    width: 1.7rem;
+    height: 0.8rem;
+    border-radius: 0.2rem;
+    font-size: 0.3rem;
+    border: 0; 
+    outline: none;
+}

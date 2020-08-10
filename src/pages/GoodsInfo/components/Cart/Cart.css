@@ -1,0 +1,64 @@
+.cart {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.cart-bon {
+    background-color: white;
+    width: 100%;
+    height: 5.7rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.cart-ti {
+    margin: 0.4rem;
+    display: flex;
+}
+
+.cart-ti img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.2rem;
+}
+
+.cart-ti p {
+    margin-left: 0.5rem;
+    font-size: 0.4rem;
+}
+.cart-gui{
+    margin:0 0 0.2rem 0.4rem;
+    font-size: 0.4rem;
+}
+.cart-shu{
+    margin-left: 0.5rem;  
+}
+.cart-shu span{
+    display: inline-block;
+    padding: 0.15rem;
+    margin-left: 0.3rem;  
+    border: 1px solid black;
+    border-radius: 0.1rem;
+}
+.cart-shu span:hover{
+  color: #FF9900;
+    border: 1px solid #FF9900;
+  
+}
+.cart-btn{
+margin-top: 0.4rem;
+width: 2rem;
+height: 1rem;
+background-color: #FF9900;
+border: none;
+text-align: center;
+color: white;
+position: absolute;
+left: 35%;
+
+}

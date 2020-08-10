@@ -1,7 +1,7 @@
 // 我的
 import React from 'react'
 import "./Me.css"
-import Floor from "../../components/Floor/Floor"
+
 
 import tou from "../../assets/img/1.jpg"
 import dai from "../../assets/img/icon_refund.png"
@@ -60,7 +60,7 @@ export default function Me() {
             <div className="Me-shouhuo">
                 <p>收货地址管理</p>
             </div>
-            <Floor></Floor>
+         
         </div>
     )
 }
